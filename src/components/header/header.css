@@ -1,0 +1,77 @@
+#menu{
+    background-color: #050709;
+	/* height: 96px; */
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+.navbar{
+	width: 100%;
+	--bs-navbar-nav-link-padding-x: 0;
+	--bs-navbar-brand-padding-y: 0;
+	--bs-navbar-padding-y: 0;
+	
+	/* height: 80px; */
+}
+.menu_bg img, svg {
+	vertical-align: middle;
+	height: 80px;
+	/* padding-bottom: 7px; */
+}
+.menu_bg .navbar-nav {
+	flex-direction: row;
+	margin-left: 52px;
+	column-gap: 30px;
+	margin-top: 8px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0;
+	padding-left: 0; 
+	font-family: dosis;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+}
+.nav-link:first-child{
+	margin-left: 200px;
+}
+.hire_me{
+	/* background-color: linear-gradient( to right, #8750f7 0%, #2a1454 51%, #140c1c 100% ); */
+  border: 1px solid white !important;
+  border-radius: 50px !important;
+  padding: 20px 71px !important;
+  margin-top: -9px;
+  background:linear-gradient(to right, #8750f7, #2a1454) !important;
+  margin-left: 70px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.hire_me:hover{
+	background:linear-gradient(to right,#2a1454 ,#8750f7 ) !important;
+  
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.nav-link{
+	position: relative;
+}
+a:hover:after{
+	content: '';
+	height: 3px;
+	width: 0px;
+	background-color: #8750f7;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: 0.3s;
+	
+}
+a:hover::after{
+	width: 100%;
+	transition: 0.3s;
+}
+
+
