@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap';
 import bannerImg from '../../assets/bannerimg.webp';
-import './banner.css';
+import './Banner.css';
 import { IoMdDownload } from 'react-icons/io'; // Import the icon here
 import { GrFacebookOption } from 'react-icons/gr';
 import { FaLinkedin } from 'react-icons/fa';
